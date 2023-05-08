@@ -1,0 +1,39 @@
+/* * {
+  border: 1px red solid
+} */
+
+.CartItem {
+  margin: 0rem 35rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+  margin-top: 20px;
+}
+
+.CartItemName {
+  flex-basis: 20%;
+  font-weight: bold;
+  display: inline-block;
+
+  margin-top: 0px;
+}
+
+.CartItemPrice {
+  flex-basis: 20%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.CartItem button {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  width: 30px;
+
+}
